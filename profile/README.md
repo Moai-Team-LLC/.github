@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗿 Moai Team
+# Moai Team
 
 ### From strategy to scale.
 
