@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Moai-Team-LLC/.github/main/brand/moai-team-logo.png" alt="Moai Team" width="150" />
+
 # Moai Team
 
 ### From strategy to scale.
