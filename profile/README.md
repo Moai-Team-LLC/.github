@@ -18,14 +18,15 @@ open infrastructure that **agents** run on.
 
 ## 🌐 Open source we maintain
 
-The agentic stack, built in the open — a runnable substrate and the standard it implements.
+The agentic stack, built in the open — runnable substrates and the standard they implement.
 
 | | Project | What it is |
 | --- | --- | --- |
 | 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | The auditable, self-improving **knowledge & memory** layer for AI agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
+| ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | The **runtime & operations** layer agentic fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native; the reference implementation of the Standard's *Fleet operations* surface. |
 | 📐 | **[Agentic Product Standard](https://github.com/Moai-Team-LLC/agentic-product-standard)** | The canonical standard for building production-grade agentic products — five principles, the autonomy ladder, the harness, eval discipline — plus a Claude Code skill set that puts it in your editor. |
 
-AgenticMind is the **reference implementation** of the Standard: read the canon to design, plug in the substrate to ship.
+AgenticMind (knowledge & memory) and AgenticOps (runtime & operations) are the **reference implementations** of the Standard: read the canon to design, plug in the substrates to ship.
 
 ## 🛠 What we do
 
