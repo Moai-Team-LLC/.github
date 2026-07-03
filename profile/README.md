@@ -36,7 +36,7 @@ they close the loop every production agent needs: **run → remember → measure
 | ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | **Runtime & operations.** The layer fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native. |
 | 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | **Knowledge & memory.** Auditable, self-improving memory for agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
 | 📈 | **[AgenticPerformance](https://github.com/Moai-Team-LLC/AgenticPerformance)** | **Evals & observability.** The Agent Performance Layer — OpenTelemetry traces, per-agent golden-set evals with a CI gate, named failure clusters, and a governed improvement loop. Engine-agnostic; ingests its siblings' telemetry through one contract. |
-| 🩹 | **[AgenticSelfHealingCode](https://github.com/Moai-Team-LLC/AgenticSelfHealingCode)** · <sub>public release in progress</sub> | **Self-healing ops.** Agents for production monitoring, incident diagnosis (RCA copilot), and test-suite healing — with outcome-earned autonomy and hard verification gates. Adversarially designed. |
+| 🩹 | **[AgenticSelfHealingCode](https://github.com/Moai-Team-LLC/AgenticSelfHealingCode)** | **Self-healing ops.** Agents for production monitoring, incident diagnosis (RCA copilot), and test-suite healing — with outcome-earned autonomy and hard verification gates. Adversarially designed. |
 
 **How they compose.** The **Standard** is the canon everything conforms to. **AgenticOps**
 runs the fleet and **AgenticMind** gives it memory and judges its answers; **AgenticPerformance**
