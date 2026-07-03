@@ -24,9 +24,10 @@ The agentic stack, built in the open — runnable substrates and the standard th
 | --- | --- | --- |
 | 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | The auditable, self-improving **knowledge & memory** layer for AI agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
 | ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | The **runtime & operations** layer agentic fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native; the reference implementation of the Standard's *Fleet operations* surface. |
+| 📈 | **[AgenticPerformance](https://github.com/Moai-Team-LLC/AgenticPerformance)** | The **evals & observability** layer — OTel agent traces, per-agent golden-set gates, calibrated judges, failure clustering, and a governed improvement loop. The reference implementation of the Standard's *Evals & observability* surface. |
 | 📐 | **[Agentic Product Standard](https://github.com/Moai-Team-LLC/agentic-product-standard)** | The canonical standard for building production-grade agentic products — five principles, the autonomy ladder, the harness, eval discipline — plus a Claude Code skill set that puts it in your editor. |
 
-AgenticMind (knowledge & memory) and AgenticOps (runtime & operations) are the **reference implementations** of the Standard: read the canon to design, plug in the substrates to ship.
+AgenticMind (knowledge & memory), AgenticOps (runtime & operations), and AgenticPerformance (evals & improvement) are the **reference implementations** of the Standard: read the canon to design, plug in the substrates to ship.
 
 ## 🛠 What we do
 
