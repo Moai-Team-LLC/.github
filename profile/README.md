@@ -16,17 +16,33 @@ open infrastructure that **agents** run on.
 
 ---
 
-## 🌐 Open source we maintain
+## 🌐 The AgenticProduct ecosystem
 
-The agentic stack, built in the open — runnable substrates and the standard they implement.
+The agentic stack, built in the open — one **standard** and four runnable **reference
+implementations**. Each layer is its own product; adopt only the ones you need. Together
+they close the loop every production agent needs: **run → remember → measure → heal.**
 
-| | Project | What it is |
+```text
+            📐  Agentic Product Standard — the contract every layer conforms to
+    ───────────────────────────────────────────────────────────────────────────────────
+  ⚙️ AgenticOps  ─▶  🧠 AgenticMind  ─▶  📈 AgenticPerformance  ─▶  🩹 AgenticSelfHealingCode
+    run the fleet      remember & judge      measure & improve            heal what breaks
+     └─────────────────────────────  ◀ improvement loop  ─────────────────────────────┘
+```
+
+| | Project | Layer — what it is |
 | --- | --- | --- |
-| 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | The auditable, self-improving **knowledge & memory** layer for AI agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
-| ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | The **runtime & operations** layer agentic fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native; the reference implementation of the Standard's *Fleet operations* surface. |
-| 📐 | **[Agentic Product Standard](https://github.com/Moai-Team-LLC/agentic-product-standard)** | The canonical standard for building production-grade agentic products — five principles, the autonomy ladder, the harness, eval discipline — plus a Claude Code skill set that puts it in your editor. |
+| 📐 | **[Agentic Product Standard](https://github.com/Moai-Team-LLC/agentic-product-standard)** | **The contract.** Five principles, the autonomy ladder, the harness layers, eval discipline — plus a Claude Code skill set that puts it in your editor. Start here. |
+| ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | **Runtime & operations.** The layer fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native. |
+| 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | **Knowledge & memory.** Auditable, self-improving memory for agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
+| 📈 | **[AgenticPerformance](https://github.com/Moai-Team-LLC/AgenticPerformance)** | **Evals & observability.** The Agent Performance Layer — OpenTelemetry traces, per-agent golden-set evals with a CI gate, named failure clusters, and a governed improvement loop. Engine-agnostic; ingests its siblings' telemetry through one contract. |
+| 🩹 | **[AgenticSelfHealingCode](https://github.com/Moai-Team-LLC/AgenticSelfHealingCode)** · <sub>public release in progress</sub> | **Self-healing ops.** Agents for production monitoring, incident diagnosis (RCA copilot), and test-suite healing — with outcome-earned autonomy and hard verification gates. Adversarially designed. |
 
-AgenticMind (knowledge & memory) and AgenticOps (runtime & operations) are the **reference implementations** of the Standard: read the canon to design, plug in the substrates to ship.
+**How they compose.** The **Standard** is the canon everything conforms to. **AgenticOps**
+runs the fleet and **AgenticMind** gives it memory and judges its answers; **AgenticPerformance**
+measures what they produce — its adapters ingest Ops + Mind telemetry into one trace/eval
+contract — and **AgenticSelfHealingCode** acts on those signals to repair what breaks. Read the
+canon to design; plug in the substrates to ship.
 
 ## 🛠 What we do
 
