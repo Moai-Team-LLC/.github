@@ -18,9 +18,10 @@ open infrastructure that **agents** run on.
 
 ## 🌐 The AgenticProduct ecosystem
 
-The agentic stack, built in the open — one **standard** and four runnable **reference
+The agentic stack, built in the open — one **standard** and five runnable **reference
 implementations**. Each layer is its own product; adopt only the ones you need. Together
-they close the loop every production agent needs: **run → remember → measure → heal.**
+they close the loop every production agent needs — **run → remember → measure → heal** — and
+**prove it safe under attack.**
 
 ```text
             📐  Agentic Product Standard — the contract every layer conforms to
@@ -28,6 +29,8 @@ they close the loop every production agent needs: **run → remember → measure
   ⚙️ AgenticOps  ─▶  🧠 AgenticMind  ─▶  📈 AgenticPerformance  ─▶  🩹 AgenticSelfHealingCode
     run the fleet      remember & judge      measure & improve            heal what breaks
      └─────────────────────────────  ◀ improvement loop  ─────────────────────────────┘
+
+            🛡️  AgenticAssurance — red-teams the whole loop & proves it audit-ready
 ```
 
 | | Project | Layer — what it is |
@@ -37,11 +40,13 @@ they close the loop every production agent needs: **run → remember → measure
 | 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | **Knowledge & memory.** Auditable, self-improving memory for agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
 | 📈 | **[AgenticPerformance](https://github.com/Moai-Team-LLC/AgenticPerformance)** | **Evals & observability.** The Agent Performance Layer — OpenTelemetry traces, per-agent golden-set evals with a CI gate, named failure clusters, and a governed improvement loop. Engine-agnostic; ingests its siblings' telemetry through one contract. |
 | 🩹 | **[AgenticSelfHealingCode](https://github.com/Moai-Team-LLC/AgenticSelfHealingCode)** | **Self-healing ops.** Agents for production monitoring, incident diagnosis (RCA copilot), and test-suite healing — with outcome-earned autonomy and hard verification gates. Adversarially designed. |
+| 🛡️ | **[AgenticAssurance](https://github.com/Moai-Team-LLC/AgenticAssurance)** | **Assurance & security.** Red-team any agent for the OWASP Agentic risks — a toxic-flow graph, execution-layer side-effect detection, SARIF — then prove it's controlled with an auditor-ready evidence bundle. Framework-neutral core (`agent-assurance` on npm). |
 
 **How they compose.** The **Standard** is the canon everything conforms to. **AgenticOps**
 runs the fleet and **AgenticMind** gives it memory and judges its answers; **AgenticPerformance**
 measures what they produce — its adapters ingest Ops + Mind telemetry into one trace/eval
-contract — and **AgenticSelfHealingCode** acts on those signals to repair what breaks. Read the
+contract — and **AgenticSelfHealingCode** acts on those signals to repair what breaks. And
+**AgenticAssurance** red-teams the result and proves it safe under attack and audit-ready. Read the
 canon to design; plug in the substrates to ship.
 
 ## 🛠 What we do
