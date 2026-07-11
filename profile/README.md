@@ -18,17 +18,17 @@ open infrastructure that **agents** run on.
 
 ## 🌐 The AgenticProduct ecosystem
 
-The agentic stack, built in the open — one **standard** and six runnable **reference
+The agentic stack, built in the open — one **standard** and five runnable **reference
 implementations**. Each layer is its own product; adopt only the ones you need. Together
-they close the loop every production agent needs — **run → remember → measure → heal** — and
+they close the loop every production agent needs — **run → remember → measure** — and
 **prove it safe under attack.**
 
 ```text
             📐  Agentic Product Standard — the contract every layer conforms to
     ───────────────────────────────────────────────────────────────────────────────────
-  ⚙️ AgenticOps  ─▶  🧠 AgenticMind  ─▶  📈 AgenticPerformance  ─▶  🩹 AgenticSelfHealingCode
-    run the fleet      remember & judge      measure & improve            heal what breaks
-     └─────────────────────────────  ◀ improvement loop  ─────────────────────────────┘
+  ⚙️ AgenticOps  ─▶  🧠 AgenticMind  ─▶  📈 AgenticPerformance
+    run the fleet      remember & judge      measure & improve
+     └──────────────────────  ◀ improvement loop  ──────────────────────┘
 
             🛡️  AgenticAssurance — red-teams the whole loop & proves it audit-ready
 ```
@@ -39,14 +39,12 @@ they close the loop every production agent needs — **run → remember → meas
 | ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | **Runtime & operations.** The layer fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native. |
 | 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | **Knowledge & memory.** Auditable, self-improving memory for agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
 | 📈 | **[AgenticPerformance](https://github.com/Moai-Team-LLC/AgenticPerformance)** | **Evals & observability.** The Agent Performance Layer — OpenTelemetry traces, per-agent golden-set evals with a CI gate, named failure clusters, and a governed improvement loop. Engine-agnostic; ingests its siblings' telemetry through one contract. |
-| 🩹 | **[AgenticSelfHealingCode](https://github.com/Moai-Team-LLC/AgenticSelfHealingCode)** | **Self-healing ops.** Agents for production monitoring, incident diagnosis (RCA copilot), and test-suite healing — with outcome-earned autonomy and hard verification gates. Adversarially designed. |
 | 🌉 | **[AgenticGateway](https://github.com/Moai-Team-LLC/AgenticGateway)** | **Model & cost plane.** One OpenAI-compatible key every LLM call flows through — eval-measured routing, per-run/tenant cost ceilings, prompt + semantic caching, and hash-not-text evidence per call, on a Bifrost data plane. Bun-native. |
 | 🛡️ | **[AgenticAssurance](https://github.com/Moai-Team-LLC/AgenticAssurance)** | **Assurance & security.** Red-team any agent for the OWASP Agentic risks — a toxic-flow graph, execution-layer side-effect detection, SARIF — then prove it's controlled with an auditor-ready evidence bundle. Framework-neutral core (`agent-assurance` on npm). |
 
 **How they compose.** **AgenticOps** runs the fleet, **AgenticMind** gives
 agents auditable knowledge & memory, **AgenticPerformance** measures every run
-with traces and evals, and **AgenticSelfHealingCode** repairs what breaks —
-closing the **run → remember → measure → heal** loop. **AgenticGateway** is the
+with traces and evals — closing the **run → remember → measure** loop. **AgenticGateway** is the
 model plane every LLM call in that loop passes through — one key, eval-measured
 routing, cost ceilings — and **AgenticAssurance** red-teams any agent in the
 loop, with the whole stack conforming to the
