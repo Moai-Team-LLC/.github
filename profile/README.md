@@ -23,6 +23,11 @@ implementations**. Each layer is its own product; adopt only the ones you need. 
 they close the loop every production agent needs — **run → remember → measure** — and
 **prove it safe under attack.**
 
+> **Two ways in.** Want the whole loop as one deployable engine? → the
+> **[Agentic Platform](https://github.com/Moai-Team-LLC/agentic-platform)** assembles every layer
+> below into one runnable product — knowledge, model plane, observability, incidents — one clone
+> per project, `agentic init` → `agentic up`. Want just one capability? → adopt a single layer below.
+
 ```text
             📐  Agentic Product Standard — the contract every layer conforms to
     ───────────────────────────────────────────────────────────────────────────────────
