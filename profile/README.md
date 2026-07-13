@@ -9,6 +9,8 @@
 We build smart, flexible software — custom engineering, AI applications, and the
 open infrastructure that **agents** run on.
 
+**⚡ [The Agentic Platform](https://github.com/Moai-Team-LLC/agentic-platform)** — the whole agentic stack, wired into one deployable engine.
+
 [![Website](https://img.shields.io/badge/moaiteam.com-111?logo=safari&logoColor=white)](https://moaiteam.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/moai-team/)
 
