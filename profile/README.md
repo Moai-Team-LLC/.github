@@ -43,6 +43,7 @@ they close the loop every production agent needs — **run → remember → meas
 | | Project | Layer — what it is |
 | --- | --- | --- |
 | 📐 | **[Agentic Product Standard](https://github.com/Moai-Team-LLC/agentic-product-standard)** | **The contract.** Six principles, the autonomy ladder, the harness layers, eval discipline — plus a Claude Code skill set that puts it in your editor. Start here. |
+| 🤝 |**[AITM-SMB](https://github.com/Moai-Team-LLC/aitm-smb)** — AI Transformation Methodology for Small and Medium-Sized Businesses: an open, agent-readable method for deciding which business capability should change, whether AI belongs in that change, and how much authority it gets. MIT.
 | ⚙️ | **[AgenticOps](https://github.com/Moai-Team-LLC/AgenticOps)** | **Runtime & operations.** The layer fleets run on — deployable agent manifests, coordinated scheduling, a durable backlog, bounded execution, and fleet observability. Lean, Bun-native. |
 | 🧠 | **[AgenticMind](https://github.com/Moai-Team-LLC/AgenticMind)** | **Knowledge & memory.** Auditable, self-improving memory for agents over MCP — citation-enforced answers, a replayable why-trace, a judge-gated compounding loop. Zero-key, multilingual, Postgres-only. |
 | 📈 | **[AgenticPerformance](https://github.com/Moai-Team-LLC/AgenticPerformance)** | **Evals & observability.** The Agent Performance Layer — OpenTelemetry traces, per-agent golden-set evals with a CI gate, named failure clusters, and a governed improvement loop. Engine-agnostic; ingests its siblings' telemetry through one contract. |
